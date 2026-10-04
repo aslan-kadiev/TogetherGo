@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="at.fhj.togethergo.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="at.fhj.togethergo.ui.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_activity"
+        android:name="at.fhj.togethergo.ui.ActivityFragment"
+        android:label="Activity"
+        tools:layout="@layout/fragment_activity" />
+
+    <fragment
+        android:id="@+id/navigation_moments"
+        android:name="at.fhj.togethergo.ui.MomentsFragment"
+        android:label="Moments"
+        tools:layout="@layout/fragment_moments" />
+
+    <fragment
+        android:id="@+id/navigation_mood"
+        android:name="at.fhj.togethergo.ui.MoodFragment"
+        android:label="Mood"
+        tools:layout="@layout/fragment_mood" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="at.fhj.togethergo.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

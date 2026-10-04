@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">TogetherGo</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_mood">Mood</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_completed">Completed</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_ok">OK</string>
+    <string name="action_log_out">Log Out</string>
+
+    <!-- Login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name (for registration only)</string>
+    <string name="hint_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">Register</string>
+    <string name="action_back_to_login">Back to login</string>
+    <string name="err_fill_all_fields">Please fill all fields</string>
+    <string name="err_password_short">Password must be at least 6 characters</string>
+    <string name="err_firebase_not_configured">Firebase is not configured. Add google-services.json as described in the README.</string>
+    <string name="err_enter_name">Enter your name and click register again</string>
+    <string name="err_auth_failed">Authentication failed: %1$s</string>
+    <string name="err_registration_failed">Registration failed: %1$s</string>
+    <string name="err_save_user_failed">Failed to save user data: %1$s</string>
+
+    <!-- Home -->
+    <string name="welcome_back">Welcome back, %1$s!</string>
+    <string name="home_subtitle">You\'re doing great today</string>
+    <string name="greeting_morning">Good morning, ready for some fresh air?</string>
+    <string name="greeting_afternoon">Good afternoon, a short walk could help!</string>
+    <string name="greeting_evening">Good evening, every step still counts.</string>
+    <string name="level_label">Level %1$d</string>
+    <string name="progress_to_next_level">Progress to next level</string>
+    <string name="progress_to_level">Progress to Level %1$d</string>
+    <string name="label_points">points</string>
+    <string name="todays_quests">Today\'s Quests</string>
+    <string name="quest_walk_title">Take a Short Walk</string>
+    <string name="quest_walk_desc">Walk at least 500 steps today</string>
+    <string name="quest_distance_title">Go the Distance</string>
+    <string name="quest_distance_desc">Walk 1 km today</string>
+    <string name="quest_burn_title">Burn It Up</string>
+    <string name="quest_burn_desc">Burn 50 kcal today</string>
+    <string name="pts_plus_50">+50 points</string>
+    <string name="pts_plus_60">+60 points</string>
+    <string name="pts_plus_75">+75 points</string>
+    <string name="label_progress">Progress</string>
+    <string name="steps_progress">%1$d steps</string>
+    <string name="steps_progress_done">✓ %1$d steps</string>
+    <string name="km_progress">%1$.1f / 1.0 km</string>
+    <string name="km_progress_done">✓ %1$.1f km</string>
+    <string name="kcal_progress">%1$d / 50 kcal</string>
+    <string name="kcal_progress_done">✓ %1$d kcal</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_log_mood">Log Mood</string>
+    <string name="action_explore_map">Explore Map</string>
+    <string name="exhibition_quests">Exhibition Quests</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="quest_completed_feedback">Quest Completed! +%1$d Points</string>
+    <string name="quest_points">+%1$d Points</string>
+    <string name="quest_complete_failed">Failed to complete quest.</string>
+
+    <!-- Achievement highlight -->
+    <string name="ach_streak_title">%1$d-Day Streak!</string>
+    <string name="ach_streak_desc">You went outside several days in a row</string>
+    <string name="ach_marathoner">Marathoner</string>
+    <string name="ach_marathoner_desc">Over 50,000 steps walked</string>
+    <string name="ach_walker">Walker</string>
+    <string name="ach_walker_desc">More than 10,000 steps so far</string>
+    <string name="ach_quest_complete">Quest Complete!</string>
+    <string name="ach_getting_started">Getting Started</string>
+    <string name="ach_getting_started_desc">Your journey starts here</string>
+    <!-- Behavioural activation achievements (Moments + Mood) -->
+    <string name="ach_moments_collector">Moment Collector</string>
+    <string name="ach_moments_collector_desc">You keep noticing the world around you</string>
+    <string name="ach_first_moment">First Moment</string>
+    <string name="ach_first_moment_desc">You captured your first moment outside</string>
+    <string name="ach_checkin_title">Checking In</string>
+    <string name="ach_checkin_desc">You keep checking in with yourself</string>
+    <plurals name="ach_quests_done">
+        <item quantity="one">%1$d quest done</item>
+        <item quantity="other">%1$d quests done</item>
+    </plurals>
+
+    <!-- Level titles -->
+    <string name="level_explorer">Explorer</string>
+    <string name="level_adventurer">Adventurer</string>
+    <string name="level_expert">Expert</string>
+    <string name="level_master">Master</string>
+
+    <!-- Activity -->
+    <string name="activity_title">Activity Tracking</string>
+    <string name="activity_subtitle">Keep moving, you\'re amazing!</string>
+    <string name="todays_movement">Today\'s Movement</string>
+    <string name="of_goal">of %1$,d</string>
+    <string name="km_walked">km walked</string>
+    <string name="min_active">min active</string>
+    <string name="label_calories">calories</string>
+    <string name="this_week">This Week</string>
+    <string name="weekly_total">Weekly Total</string>
+    <string name="weekly_total_steps">%1$,d steps</string>
+    <string name="badge_get_moving">Let\'s get moving! 🚶</string>
+    <string name="badge_goal_reached">🎉 Goal reached!</string>
+    <string name="badge_to_goal">🔥 %1$d%% to goal</string>
+
+    <!-- Mood -->
+    <string name="mood_journal">Mood Journal</string>
+    <string name="mood_journal_subtitle">Check in with yourself and jot down a thought</string>
+    <string name="how_are_you_feeling">How are you feeling?</string>
+    <string name="mood_terrible">Terrible</string>
+    <string name="mood_bad">Bad</string>
+    <string name="mood_okay">Okay</string>
+    <string name="mood_good">Good</string>
+    <string name="mood_great">Great</string>
+    <string name="note_hint">Write about your day — what made you feel this way?</string>
+    <string name="save_checkin">Save Check-in</string>
+    <string name="update_checkin">Update Check-in</string>
+    <string name="recent_checkins">Recent Check-ins</string>
+    <string name="empty_moods">No check-ins yet.\nYour first entry will appear here. 🌱</string>
+    <string name="reflection_low">Tough stretch lately — be kind to yourself</string>
+    <string name="reflection_mid">Your recent mood looks balanced</string>
+    <string name="reflection_high">You\'ve been feeling good lately!</string>
+    <plurals name="reflection_summary">
+        <item quantity="one">%1$s · last %2$d check-in</item>
+        <item quantity="other">%1$s · last %2$d check-ins</item>
+    </plurals>
+    <string name="header_today">Today</string>
+    <string name="header_yesterday">Yesterday</string>
+    <string name="checkin_saved">Check-in saved! Keep it up.</string>
+    <string name="checkin_updated">Check-in updated.</string>
+    <string name="checkin_deleted">Check-in deleted.</string>
+    <string name="delete_checkin_title">Delete this check-in?</string>
+    <string name="delete_checkin_msg">This entry will be removed from your journal.</string>
+
+    <!-- Profile -->
+    <string name="member_since">Member since %1$d</string>
+    <string name="statistics">Statistics</string>
+    <string name="stat_total_quests">Total Quests</string>
+    <string name="stat_active_days">Active Days</string>
+    <string name="stat_total_steps">Total Steps</string>
+    <string name="stat_points_earned">Points Earned</string>
+    <string name="achievements">Achievements</string>
+    <string name="badge_starter">Starter</string>
+    <string name="badge_walker">Walker</string>
+    <string name="badge_climber">Climber</string>
+    <string name="badge_quester">Quester</string>
+    <string name="badge_marathoner">Marathoner</string>
+    <string name="badge_champion">Champion</string>
+    <string name="badge_starter_desc">Your journey starts here! (Always unlocked)</string>
+    <string name="badge_walker_desc">Walked more than 10,000 steps</string>
+    <string name="badge_climber_desc">Maintained a 3-day streak</string>
+    <string name="badge_quester_desc">Completed your first quest</string>
+    <string name="badge_marathoner_desc">Reached 50,000 total steps</string>
+    <string name="badge_champion_desc">Maintained a 7-day streak</string>
+    <string name="badge_reflective">Reflective</string>
+    <string name="badge_collector">Collector</string>
+    <string name="badge_legend">Legend</string>
+    <string name="badge_reflective_desc">Logged 10 mood check-ins</string>
+    <string name="badge_collector_desc">Completed 30 quests</string>
+    <string name="badge_legend_desc">Maintained a 14-day streak</string>
+    <string name="streak_none">No streak yet</string>
+    <string name="streak_days">%1$d-Day Streak!</string>
+    <string name="total_points">%1$d total points</string>
+    <string name="steps_thousands">%1$.1fk</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme_subtitle">When off, follows your phone settings</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_german">Deutsch</string>
+
+    <!-- Map -->
+    <string name="click_to_set_marker">Tap the map to drop your quest</string>
+    <string name="name_your_marker">Name your marker</string>
+    <string name="new_marker">New Marker</string>
+    <string name="marker_saved">Marker saved to Firestore</string>
+    <string name="marker_load_error">Error loading markers: %1$s</string>
+    <string name="marker_save_error">Error saving marker: %1$s</string>
+    <!-- Shared quest markers (with author + chosen lifetime + auto-expiry) -->
+    <string name="marker_dialog_title">Invite others to a quest</string>
+    <string name="marker_hint_name">What\'s happening here? (e.g. coffee at the park)</string>
+    <string name="marker_start_label">Activity starts at</string>
+    <string name="marker_start_pick">Choose start time</string>
+    <string name="marker_start_none">Not set</string>
+    <string name="marker_duration_label">How long should it stay on the map?</string>
+    <string name="marker_unit_hours">h</string>
+    <string name="marker_unit_minutes">min</string>
+    <string name="marker_snippet_by">by %1$s</string>
+    <string name="marker_snippet_start">starts at %1$s</string>
+    <string name="marker_snippet_until">visible until %1$s</string>
+    <string name="marker_action_post">Post</string>
+    <string name="marker_limit_title">You already have an active quest</string>
+    <string name="marker_limit_message">You can only have one active quest on the map. Delete your current one to post a new one?</string>
+    <string name="marker_limit_replace">Delete &amp; continue</string>
+    <string name="location_permission_needed">Location is needed to complete walk-to-the-spot quests.</string>
+    <string name="quest_marker_snippet">Quest · +%1$d pts · walk here to complete</string>
+    <string name="quest_completed_loc">Quest completed: %1$s  +%2$d pts</string>
+
+    <!-- Step counter service -->
+    <string name="notif_running_title">Step counter running</string>
+    <string name="notif_running_text">Steps: %1$d  •  %2$d kcal</string>
+    <string name="notif_step_goal_title">Step goal reached!</string>
+    <string name="notif_step_goal_text">You reached %1$d steps.</string>
+
+    <!-- Permissions -->
+    <string name="activity_recognition_needed">Activity Recognition permission is required for the step counter.</string>
+    <string name="camera_permission_needed">Camera permission is needed to take a photo.</string>
+
+    <!-- Moments (photo journal) -->
+    <string name="nav_moments">Moments</string>
+    <string name="moments_title">Moments</string>
+    <string name="moments_subtitle">Small reasons to step outside — and keep them</string>
+    <string name="moment_of_day_label">Moment of the day</string>
+    <string name="moments_section">Your moments</string>
+    <string name="moments_encouragement">Each photo is a small step back into the world.</string>
+    <string name="empty_moments_photos">No moments yet.\nYour first step outside will live here. 🌱</string>
+    <string name="capture_moment">Capture this moment</string>
+    <string name="captured_today">Captured today ✓</string>
+    <string name="tap_to_capture">Tap to capture today\'s moment →</string>
+    <string name="add_moment">Add a moment</string>
+    <string name="use_camera">Take a photo</string>
+    <string name="use_gallery">Choose from gallery</string>
+    <string name="add_a_note">Add a note</string>
+    <string name="caption_hint">A word about this moment (optional)</string>
+    <string name="action_save">Save</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_close">Close</string>
+    <string name="moment_saved">Moment saved to your journal</string>
+    <string name="moment_save_failed">Couldn\'t save that photo. Please try again.</string>
+    <string name="moment_reward">Moment captured! +%1$d points</string>
+    <string name="moment_free_title">A moment</string>
+    <string name="moment_deleted">Moment deleted.</string>
+    <string name="delete_moment_title">Delete this moment?</string>
+    <string name="delete_moment_msg">The photo will be removed from your device.</string>
+    <string name="no_camera">No camera available — pick from your gallery instead.</string>
+    <string name="pts_plus_40">+40 points</string>
+    <plurals name="moments_count">
+        <item quantity="one">%d moment captured</item>
+        <item quantity="other">%d moments captured</item>
+    </plurals>
+
+    <!-- Photo prompts: gentle nudges to go out and notice the world -->
+    <string name="prompt_doorstep_title">Just outside your door</string>
+    <string name="prompt_doorstep_desc">Step out and photograph the first thing that catches your eye.</string>
+    <string name="prompt_green_title">Something green</string>
+    <string name="prompt_green_desc">Find a plant, a tree or a single leaf and capture it.</string>
+    <string name="prompt_sky_title">Today\'s sky</string>
+    <string name="prompt_sky_desc">Look up and photograph the sky right now.</string>
+    <string name="prompt_smile_title">Something that made you smile</string>
+    <string name="prompt_smile_desc">Notice one small thing that lifted your mood.</string>
+    <string name="prompt_water_title">Some water</string>
+    <string name="prompt_water_desc">A river, a fountain, a puddle — anything that flows.</string>
+    <string name="prompt_color_title">A splash of color</string>
+    <string name="prompt_color_desc">Spot the most colorful thing around you.</string>
+    <string name="prompt_animal_title">An animal or a bird</string>
+    <string name="prompt_animal_desc">A dog, a pigeon, a cat on a wall — say hello.</string>
+    <string name="prompt_light_title">A patch of light</string>
+    <string name="prompt_light_desc">Find some sunlight and stand in it for a moment.</string>
+    <string name="prompt_people_title">A place full of life</string>
+    <string name="prompt_people_desc">A café, a park, a busy street — somewhere with people.</string>
+    <string name="prompt_favorite_title">A favorite spot</string>
+    <string name="prompt_favorite_desc">Go somewhere you love and capture why it matters.</string>
+    <string name="prompt_new_title">Something new</string>
+    <string name="prompt_new_desc">Take a slightly different route and find something unfamiliar.</string>
+    <string name="prompt_flowers_title">Flowers or a garden</string>
+    <string name="prompt_flowers_desc">Find something blooming and get a little closer.</string>
+    <string name="prompt_tree_title">A big tree</string>
+    <string name="prompt_tree_desc">Find the biggest tree near you and look up.</string>
+    <string name="prompt_reflection_title">A reflection</string>
+    <string name="prompt_reflection_desc">A puddle, a window or a mirror — catch a reflection.</string>
+    <string name="prompt_sunset_title">Sunrise or sunset</string>
+    <string name="prompt_sunset_desc">Catch the sky changing color at the start or end of the day.</string>
+    <string name="prompt_mural_title">Street art</string>
+    <string name="prompt_mural_desc">A mural, a poster or graffiti that stands out.</string>
+    <string name="prompt_rest_title">A place to rest</string>
+    <string name="prompt_rest_desc">A bench or a quiet spot — sit for a minute.</string>
+    <string name="prompt_moon_title">The evening sky</string>
+    <string name="prompt_moon_desc">Step out after dark and look for the moon or stars.</string>
+
+    <!-- More photo quests section -->
+    <string name="photo_quests_section">More photo quests</string>
+    <string name="photo_quests_hint">Pick one and head out — each earns points once a day.</string>
+    <string name="togethergo">TogetherGo</string>
+</resources>

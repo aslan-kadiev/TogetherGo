@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. DayNight follows the system / manual override. -->
+    <style name="Base.Theme.TogetherGo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/bg_screen</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <!-- we manage dark mode ourselves, so don't let the OS force-dark our views -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="Theme.TogetherGo" parent="Base.Theme.TogetherGo" />
+</resources>

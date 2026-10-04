@@ -1,0 +1,10 @@
+<resources>
+    <!-- Dark variant: Material3 dark defaults + our night colors (auto-swapped via values-night/colors). -->
+    <style name="Base.Theme.TogetherGo" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorBackground">@color/bg_screen</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

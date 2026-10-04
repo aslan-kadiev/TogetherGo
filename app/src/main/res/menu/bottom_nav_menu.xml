@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/nav_map" />
+    <!-- Bottom nav is capped at 5 items; Activity (the fitness dashboard) is reachable from Home instead -->
+    <item
+        android:id="@+id/navigation_moments"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/nav_moments" />
+    <item
+        android:id="@+id/navigation_mood"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/nav_mood" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_profile" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces & backgrounds -->
+    <color name="bg_screen">#121212</color>
+    <color name="bg_subtle">#1F1F1F</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="track">#3A3F47</color>
+    <color name="divider">#333333</color>
+    <color name="bar_empty">#374151</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F3F4F6</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_tertiary">#6B7280</color>
+    <color name="text_on_gradient">#E0E7FF</color>
+
+    <!-- Accents (brand) — kept vivid, brightened where needed for contrast -->
+    <color name="accent_orange">#FF8C42</color>
+    <color name="accent_orange_text">#FB923C</color>
+    <color name="accent_green">#22C55E</color>
+    <color name="accent_green_dark">#34D399</color>
+    <color name="accent_blue">#60A5FA</color>
+    <color name="accent_blue_link">#60A5FA</color>
+    <color name="accent_pink">#F472B6</color>
+    <color name="accent_indigo">#A5B4FC</color>
+    <color name="accent_amber">#FBBF24</color>
+    <color name="accent_amber_dark">#FBBF24</color>
+    <color name="accent_danger">#F87171</color>
+
+    <!-- Tinted cards -->
+    <color name="quest_card_bg">#15291C</color>
+    <color name="quest_card_text">#86EFAC</color>
+    <color name="streak_card_bg">#2E2410</color>
+    <color name="reflection_card_bg">#1E2240</color>
+    <color name="reflection_card_text">#C7D2FE</color>
+</resources>

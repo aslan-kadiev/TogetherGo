@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">TogetherGo</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Start</string>
+    <string name="nav_map">Karte</string>
+    <string name="nav_activity">Aktivität</string>
+    <string name="nav_mood">Stimmung</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Common -->
+    <string name="action_back">Zurück</string>
+    <string name="action_complete">Abschließen</string>
+    <string name="action_completed">Abgeschlossen</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_ok">OK</string>
+    <string name="action_log_out">Abmelden</string>
+
+    <!-- Login -->
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_name">Name (nur für Registrierung)</string>
+    <string name="hint_password">Passwort</string>
+    <string name="action_login">Anmelden</string>
+    <string name="action_register">Registrieren</string>
+    <string name="action_back_to_login">Zurück zur Anmeldung</string>
+    <string name="err_fill_all_fields">Bitte alle Felder ausfüllen</string>
+    <string name="err_password_short">Passwort muss mindestens 6 Zeichen haben</string>
+    <string name="err_firebase_not_configured">Firebase ist nicht konfiguriert. Füge google-services.json wie im README beschrieben hinzu.</string>
+    <string name="err_enter_name">Gib deinen Namen ein und klicke erneut auf Registrieren</string>
+    <string name="err_auth_failed">Anmeldung fehlgeschlagen: %1$s</string>
+    <string name="err_registration_failed">Registrierung fehlgeschlagen: %1$s</string>
+    <string name="err_save_user_failed">Benutzerdaten konnten nicht gespeichert werden: %1$s</string>
+
+    <!-- Home -->
+    <string name="welcome_back">Willkommen zurück, %1$s!</string>
+    <string name="home_subtitle">Du machst das heute großartig</string>
+    <string name="greeting_morning">Guten Morgen, bereit für frische Luft?</string>
+    <string name="greeting_afternoon">Guten Tag, ein kurzer Spaziergang könnte helfen!</string>
+    <string name="greeting_evening">Guten Abend, jeder Schritt zählt noch.</string>
+    <string name="level_label">Level %1$d</string>
+    <string name="progress_to_next_level">Fortschritt zum nächsten Level</string>
+    <string name="progress_to_level">Fortschritt zu Level %1$d</string>
+    <string name="label_points">Punkte</string>
+    <string name="todays_quests">Heutige Quests</string>
+    <string name="quest_walk_title">Mach einen kurzen Spaziergang</string>
+    <string name="quest_walk_desc">Gehe heute mindestens 500 Schritte</string>
+    <string name="quest_distance_title">Leg eine Strecke zurück</string>
+    <string name="quest_distance_desc">Gehe heute 1 km</string>
+    <string name="quest_burn_title">Verbrenne Kalorien</string>
+    <string name="quest_burn_desc">Verbrenne heute 50 kcal</string>
+    <string name="pts_plus_50">+50 Punkte</string>
+    <string name="pts_plus_60">+60 Punkte</string>
+    <string name="pts_plus_75">+75 Punkte</string>
+    <string name="label_progress">Fortschritt</string>
+    <string name="steps_progress">%1$d  Schritte</string>
+    <string name="steps_progress_done">✓ %1$d Schritte</string>
+    <string name="km_progress">%1$.1f / 1.0 km</string>
+    <string name="km_progress_done">✓ %1$.1f km</string>
+    <string name="kcal_progress">%1$d / 50 kcal</string>
+    <string name="kcal_progress_done">✓ %1$d kcal</string>
+    <string name="quick_actions">Schnellaktionen</string>
+    <string name="action_log_mood">Stimmung</string>
+    <string name="action_explore_map">Karte erkunden</string>
+    <string name="exhibition_quests">Ausstellungs-Quests</string>
+    <string name="recent_achievements">Letzte Erfolge</string>
+    <string name="quest_completed_feedback">Quest abgeschlossen! +%1$d Punkte</string>
+    <string name="quest_points">+%1$d Punkte</string>
+    <string name="quest_complete_failed">Quest konnte nicht abgeschlossen werden.</string>
+
+    <!-- Achievement highlight -->
+    <string name="ach_streak_title">%1$d-Tage-Serie!</string>
+    <string name="ach_streak_desc">Du warst mehrere Tage in Folge draußen</string>
+    <string name="ach_marathoner">Marathonläufer</string>
+    <string name="ach_marathoner_desc">Über 50.000 Schritte gegangen</string>
+    <string name="ach_walker">Spaziergänger</string>
+    <string name="ach_walker_desc">Mehr als 10.000 Schritte bisher</string>
+    <string name="ach_quest_complete">Quest abgeschlossen!</string>
+    <string name="ach_getting_started">Erste Schritte</string>
+    <string name="ach_getting_started_desc">Deine Reise beginnt hier</string>
+    <string name="ach_moments_collector">Momente-Sammler</string>
+    <string name="ach_moments_collector_desc">Du nimmst die Welt um dich herum bewusst wahr</string>
+    <string name="ach_first_moment">Erster Moment</string>
+    <string name="ach_first_moment_desc">Du hast deinen ersten Moment draußen festgehalten</string>
+    <string name="ach_checkin_title">Eingecheckt</string>
+    <string name="ach_checkin_desc">Du checkst regelmäßig bei dir selbst ein</string>
+    <plurals name="ach_quests_done">
+        <item quantity="one">%1$d Quest erledigt</item>
+        <item quantity="other">%1$d Quests erledigt</item>
+    </plurals>
+
+    <!-- Level titles -->
+    <string name="level_explorer">Entdecker</string>
+    <string name="level_adventurer">Abenteurer</string>
+    <string name="level_expert">Experte</string>
+    <string name="level_master">Meister</string>
+
+    <!-- Activity -->
+    <string name="activity_title">Aktivitäts-Tracking</string>
+    <string name="activity_subtitle">Bleib in Bewegung, du bist großartig!</string>
+    <string name="todays_movement">Heutige Bewegung</string>
+    <string name="of_goal">von %1$,d</string>
+    <string name="km_walked">km gelaufen</string>
+    <string name="min_active">Min. aktiv</string>
+    <string name="label_calories">Kalorien</string>
+    <string name="this_week">Diese Woche</string>
+    <string name="weekly_total">Wochensumme</string>
+    <string name="weekly_total_steps">%1$,d Schritte</string>
+    <string name="badge_get_moving">Auf geht\'s! 🚶</string>
+    <string name="badge_goal_reached">🎉 Ziel erreicht!</string>
+    <string name="badge_to_goal">🔥 %1$d%% bis zum Ziel</string>
+
+    <!-- Mood -->
+    <string name="mood_journal">Stimmungstagebuch</string>
+    <string name="mood_journal_subtitle">Check bei dir ein und notiere einen Gedanken</string>
+    <string name="how_are_you_feeling">Wie fühlst du dich?</string>
+    <string name="mood_terrible">Schrecklich</string>
+    <string name="mood_bad">Schlecht</string>
+    <string name="mood_okay">Okay</string>
+    <string name="mood_good">Gut</string>
+    <string name="mood_great">Großartig</string>
+    <string name="note_hint">Schreibe über deinen Tag — was hat dich so fühlen lassen?</string>
+    <string name="save_checkin">Check-in speichern</string>
+    <string name="update_checkin">Check-in aktualisieren</string>
+    <string name="recent_checkins">Letzte Check-ins</string>
+    <string name="empty_moods">Noch keine Check-ins.\nDein erster Eintrag erscheint hier. 🌱</string>
+    <string name="reflection_low">Schwere Phase gerade — sei gut zu dir</string>
+    <string name="reflection_mid">Deine Stimmung wirkt ausgeglichen</string>
+    <string name="reflection_high">Du fühlst dich in letzter Zeit gut!</string>
+    <plurals name="reflection_summary">
+        <item quantity="one">%1$s · letzter %2$d Check-in</item>
+        <item quantity="other">%1$s · letzte %2$d Check-ins</item>
+    </plurals>
+    <string name="header_today">Heute</string>
+    <string name="header_yesterday">Gestern</string>
+    <string name="checkin_saved">Check-in gespeichert! Weiter so.</string>
+    <string name="checkin_updated">Check-in aktualisiert.</string>
+    <string name="checkin_deleted">Check-in gelöscht.</string>
+    <string name="delete_checkin_title">Diesen Check-in löschen?</string>
+    <string name="delete_checkin_msg">Dieser Eintrag wird aus deinem Tagebuch entfernt.</string>
+
+    <!-- Profile -->
+    <string name="member_since">Mitglied seit %1$d</string>
+    <string name="statistics">Statistiken</string>
+    <string name="stat_total_quests">Quests gesamt</string>
+    <string name="stat_active_days">Aktive Tage</string>
+    <string name="stat_total_steps">Schritte gesamt</string>
+    <string name="stat_points_earned">Verdiente Punkte</string>
+    <string name="achievements">Erfolge</string>
+    <string name="badge_starter">Starter</string>
+    <string name="badge_walker">Spaziergänger</string>
+    <string name="badge_climber">Aufsteiger</string>
+    <string name="badge_quester">Questjäger</string>
+    <string name="badge_marathoner">Marathonläufer</string>
+    <string name="badge_champion">Champion</string>
+    <string name="badge_starter_desc">Deine Reise beginnt hier! (Immer freigeschaltet)</string>
+    <string name="badge_walker_desc">Mehr als 10.000 Schritte gegangen</string>
+    <string name="badge_climber_desc">Eine 3-Tage-Serie erreicht</string>
+    <string name="badge_quester_desc">Deine erste Quest abgeschlossen</string>
+    <string name="badge_marathoner_desc">50.000 Schritte insgesamt erreicht</string>
+    <string name="badge_champion_desc">Eine 7-Tage-Serie erreicht</string>
+    <string name="badge_reflective">Reflektierend</string>
+    <string name="badge_collector">Sammler</string>
+    <string name="badge_legend">Legende</string>
+    <string name="badge_reflective_desc">10 Stimmungs-Check-ins erfasst</string>
+    <string name="badge_collector_desc">30 Quests abgeschlossen</string>
+    <string name="badge_legend_desc">Eine 14-Tage-Serie erreicht</string>
+    <string name="streak_none">Noch keine Serie</string>
+    <string name="streak_days">%1$d-Tage-Serie!</string>
+    <string name="total_points">%1$d Punkte gesamt</string>
+    <string name="steps_thousands">%1$.1fk</string>
+
+    <!-- Settings -->
+    <string name="dark_theme">Dunkles Design</string>
+    <string name="dark_theme_subtitle">Aus: folgt den Telefoneinstellungen</string>
+    <string name="language">Sprache</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string name="lang_english">English</string>
+    <string name="lang_german">Deutsch</string>
+
+    <!-- Map -->
+    <string name="click_to_set_marker">Tippe auf die Karte, um eine Markierung zu setzen</string>
+    <string name="name_your_marker">Markierung benennen</string>
+    <string name="new_marker">Neue Markierung</string>
+    <string name="marker_saved">Markierung in Firestore gespeichert</string>
+    <string name="marker_load_error">Fehler beim Laden der Markierungen: %1$s</string>
+    <string name="marker_save_error">Fehler beim Speichern der Markierung: %1$s</string>
+    <string name="marker_dialog_title">Lade andere zu einer Quest ein</string>
+    <string name="marker_hint_name">Was passiert hier? (z. B. Kaffee im Park)</string>
+    <string name="marker_start_label">Aktivität beginnt um</string>
+    <string name="marker_start_pick">Startzeit wählen</string>
+    <string name="marker_start_none">Nicht festgelegt</string>
+    <string name="marker_duration_label">Wie lange soll sie auf der Karte bleiben?</string>
+    <string name="marker_unit_hours">Std</string>
+    <string name="marker_unit_minutes">Min</string>
+
+    <string name="marker_snippet_by">von %1$s</string>
+    <string name="marker_snippet_start">beginnt um %1$s</string>
+    <string name="marker_snippet_until">sichtbar bis %1$s</string>
+    <string name="marker_limit_title">Du hast schon eine aktive Quest</string>
+    <string name="marker_limit_message">Du kannst nur eine aktive Quest auf der Karte haben. Die aktuelle löschen, um eine neue zu posten?</string>
+    <string name="marker_limit_replace">Löschen &amp; weiter</string>
+
+    <string name="marker_action_post">Posten</string>
+    <string name="location_permission_needed">Standort wird benötigt, um Lauf-zum-Ort-Quests abzuschließen.</string>
+    <string name="quest_marker_snippet">Quest · +%1$d Pkt · hierher laufen zum Abschließen</string>
+    <string name="quest_completed_loc">Quest abgeschlossen: %1$s  +%2$d Pkt</string>
+
+    <!-- Step counter service -->
+    <string name="notif_running_title">Schrittzähler läuft</string>
+    <string name="notif_running_text">Schritte: %1$d  •  %2$d kcal</string>
+    <string name="notif_step_goal_title">Schrittziel erreicht!</string>
+    <string name="notif_step_goal_text">Du hast %1$d Schritte erreicht.</string>
+
+    <!-- Permissions -->
+    <string name="activity_recognition_needed">Für den Schrittzähler wird die Berechtigung zur Aktivitätserkennung benötigt.</string>
+    <string name="camera_permission_needed">Für Fotos wird die Kamera-Berechtigung benötigt.</string>
+
+    <!-- Moments (Fototagebuch) -->
+    <string name="nav_moments">Momente</string>
+    <string name="moments_title">Momente</string>
+    <string name="moments_subtitle">Kleine Gründe, vor die Tür zu gehen — und sie zu bewahren</string>
+    <string name="moment_of_day_label">Moment des Tages</string>
+    <string name="moments_section">Deine Momente</string>
+    <string name="moments_encouragement">Jedes Foto ist ein kleiner Schritt zurück in die Welt.</string>
+    <string name="empty_moments_photos">Noch keine Momente.\nDein erster Schritt nach draußen erscheint hier. 🌱</string>
+    <string name="capture_moment">Diesen Moment festhalten</string>
+    <string name="captured_today">Heute festgehalten ✓</string>
+    <string name="tap_to_capture">Tippen, um den Moment des Tages festzuhalten →</string>
+    <string name="add_moment">Moment hinzufügen</string>
+    <string name="use_camera">Foto aufnehmen</string>
+    <string name="use_gallery">Aus Galerie wählen</string>
+    <string name="add_a_note">Notiz hinzufügen</string>
+    <string name="caption_hint">Ein Wort zu diesem Moment (optional)</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_skip">Überspringen</string>
+    <string name="action_close">Schließen</string>
+    <string name="moment_saved">Moment in deinem Tagebuch gespeichert</string>
+    <string name="moment_save_failed">Foto konnte nicht gespeichert werden. Bitte versuche es erneut.</string>
+    <string name="moment_reward">Moment festgehalten! +%1$d Punkte</string>
+    <string name="moment_free_title">Ein Moment</string>
+    <string name="moment_deleted">Moment gelöscht.</string>
+    <string name="delete_moment_title">Diesen Moment löschen?</string>
+    <string name="delete_moment_msg">Das Foto wird von deinem Gerät entfernt.</string>
+    <string name="no_camera">Keine Kamera verfügbar — wähle stattdessen aus der Galerie.</string>
+    <string name="pts_plus_40">+40 Punkte</string>
+    <plurals name="moments_count">
+        <item quantity="one">%d Moment festgehalten</item>
+        <item quantity="other">%d Momente festgehalten</item>
+    </plurals>
+
+    <!-- Foto-Prompts: sanfte Anstöße, rauszugehen und die Welt wahrzunehmen -->
+    <string name="prompt_doorstep_title">Direkt vor deiner Tür</string>
+    <string name="prompt_doorstep_desc">Geh hinaus und fotografiere das Erste, das dir ins Auge fällt.</string>
+    <string name="prompt_green_title">Etwas Grünes</string>
+    <string name="prompt_green_desc">Finde eine Pflanze, einen Baum oder ein einzelnes Blatt.</string>
+    <string name="prompt_sky_title">Der Himmel heute</string>
+    <string name="prompt_sky_desc">Schau nach oben und fotografiere den Himmel jetzt.</string>
+    <string name="prompt_smile_title">Etwas, das dich zum Lächeln brachte</string>
+    <string name="prompt_smile_desc">Bemerke eine Kleinigkeit, die deine Laune gehoben hat.</string>
+    <string name="prompt_water_title">Etwas Wasser</string>
+    <string name="prompt_water_desc">Ein Fluss, ein Brunnen, eine Pfütze — alles, was fließt.</string>
+    <string name="prompt_color_title">Ein Farbtupfer</string>
+    <string name="prompt_color_desc">Entdecke das Bunteste in deiner Umgebung.</string>
+    <string name="prompt_animal_title">Ein Tier oder ein Vogel</string>
+    <string name="prompt_animal_desc">Ein Hund, eine Taube, eine Katze auf der Mauer — sag Hallo.</string>
+    <string name="prompt_light_title">Ein Lichtfleck</string>
+    <string name="prompt_light_desc">Finde etwas Sonnenlicht und stell dich kurz hinein.</string>
+    <string name="prompt_people_title">Ein Ort voller Leben</string>
+    <string name="prompt_people_desc">Ein Café, ein Park, eine belebte Straße — irgendwo mit Menschen.</string>
+    <string name="prompt_favorite_title">Ein Lieblingsort</string>
+    <string name="prompt_favorite_desc">Geh an einen Ort, den du liebst, und halte fest, warum.</string>
+    <string name="prompt_new_title">Etwas Neues</string>
+    <string name="prompt_new_desc">Nimm einen etwas anderen Weg und finde etwas Unbekanntes.</string>
+    <string name="prompt_flowers_title">Blumen oder ein Garten</string>
+    <string name="prompt_flowers_desc">Finde etwas Blühendes und geh ein wenig näher heran.</string>
+    <string name="prompt_tree_title">Ein großer Baum</string>
+    <string name="prompt_tree_desc">Finde den größten Baum in der Nähe und schau hinauf.</string>
+    <string name="prompt_reflection_title">Eine Spiegelung</string>
+    <string name="prompt_reflection_desc">Eine Pfütze, ein Fenster oder ein Spiegel — fang eine Spiegelung ein.</string>
+    <string name="prompt_sunset_title">Sonnenauf- oder -untergang</string>
+    <string name="prompt_sunset_desc">Halte den farbigen Himmel am Anfang oder Ende des Tages fest.</string>
+    <string name="prompt_mural_title">Street-Art</string>
+    <string name="prompt_mural_desc">Ein Wandbild, ein Poster oder Graffiti, das auffällt.</string>
+    <string name="prompt_rest_title">Ein Ort zum Ausruhen</string>
+    <string name="prompt_rest_desc">Eine Bank oder ein ruhiger Platz — setz dich eine Minute.</string>
+    <string name="prompt_moon_title">Der Abendhimmel</string>
+    <string name="prompt_moon_desc">Geh nach Einbruch der Dunkelheit raus und such den Mond oder die Sterne.</string>
+
+    <!-- Mehr Foto-Quests -->
+    <string name="photo_quests_section">Mehr Foto-Quests</string>
+    <string name="photo_quests_hint">Wähle einen und geh raus — jeder bringt einmal täglich Punkte.</string>
+    <string name="togethergo">TogetherGo</string>
+</resources>
